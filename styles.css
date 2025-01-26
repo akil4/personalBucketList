@@ -5,3 +5,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #0D1117;
+    color: #FFF;
+}
+
+header {
+    background-color: #010409;
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit
+}
+
+#new-item {
+    background-color: #0D1117;
+    color: #FFF;
+    padding: 0.5em;
+    margin: 0.5rem;
+    min-width: 400px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px #000;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}

@@ -9,14 +9,17 @@
 body {
     background-color: #0D1117;
     color: #FFF;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
     background-color: #010409;
     text-align: center;
     padding: 2em;
-    margin-bottom: 1rem;
     width: 100%;
+    margin-bottom: 1rem;
+    border-bottom: 0.1px solid #FFF;
 }
 
 header a {
@@ -24,17 +27,19 @@ header a {
     color: inherit
 }
 
-#new-item {
-    background-color: #0D1117;
-    color: #FFF;
-    padding: 0.5em;
-    margin: 0.5rem;
-    min-width: 400px;
-    border-radius: 100px;
-    box-shadow: 10px 10px 10px #000;
+main {
     text-align: center;
 }
 
-main {
+#new-item {
+    background-color: #151B23;
+    color: #FFF;
+    padding: 0.7em 0.5em;
+    margin: 0.5rem;
+    min-width: 200px;
+    width: 50%;
+    max-width: 400px;
+    border-radius: 100px;
+    box-shadow: 10px 10px 10px #000;
     text-align: center;
 }

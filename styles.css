@@ -10,23 +10,30 @@ body {
     background-color: #0D1117;
     color: #FFF;
     width: 100%;
-    height: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 100%;
 }
 
 header {
+    position:sticky;
+    top: 0;
     background-color: #010409;
-    text-align: center;
     padding: 2em;
     width: 100%;
     margin-bottom: 2rem;
     border-bottom: 0.1px solid #FFF;
+    display: flex;
+    align-items: center;
+    min-height: 10vh;
 }
 
-header a {
+a {
     text-decoration: none;
     color: inherit;
+}
+
+h1 {
+    margin-left: 40%;
+    text-overflow: none;
 }
 
 main {
@@ -42,15 +49,30 @@ main {
     margin: 0 5%;
     border-radius: 25px;
     box-shadow: 10px 10px 10px #000;
-    text-align: start;
+}
+
+li:hover {
+    color: #007F00;
+    text-shadow: 10px -10px 20px ;
 }
 
 .inline {
     display: flex;
     gap: 30px;
+    padding-bottom: 1em;
 }
 
-@media screen and (minwidth: 768px){
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #010409;
+    text-align: right;
+    padding: 1em;
+    width: 100%;
+    min-height: 5vh;
+}
+
+/* @media screen and (minwidth: 768px){
     body {
         font-size: 200%;
         color: #000;
@@ -59,7 +81,7 @@ main {
     .bucket-list {
         max-width: 900px;
     }
-}
+} */
 
 /* #new-item {
     background-color: #151B23;

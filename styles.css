@@ -18,7 +18,7 @@ header {
     text-align: center;
     padding: 2em;
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     border-bottom: 0.1px solid #FFF;
 }
 
@@ -31,7 +31,17 @@ main {
     text-align: center;
 }
 
-#new-item {
+.bucket-list {
+    min-width: 150px;
+    border: 1px solid #151B23;
+    padding: 3em;
+    margin: 0 5%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #000;
+    text-align: start;
+}
+
+/* #new-item {
     background-color: #151B23;
     color: #FFF;
     padding: 0.7em 0.5em;
@@ -42,13 +52,4 @@ main {
     border-radius: 100px;
     box-shadow: 10px 10px 10px #000;
     text-align: center;
-}
-
-.bucket-list {
-    border: 1px solid #151B23;
-    padding: 3em 5em;
-    margin: 0.5rem 25%;
-    border-radius: 25px;
-    box-shadow: 10px 10px 10px #000;
-    text-align: start;
-}
+} */

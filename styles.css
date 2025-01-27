@@ -45,7 +45,10 @@ main {
 }
 
 .bucket-list {
-    color: #FFF;
-    font-size: 20px;
-    font-weight: bold;
+    border: 1px solid #151B23;
+    padding: 3em 5em;
+    margin: 0.5rem 25%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #000;
+    text-align: start;
 }

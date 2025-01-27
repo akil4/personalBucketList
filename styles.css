@@ -45,6 +45,11 @@ main {
     text-align: start;
 }
 
+.inline {
+    display: flex;
+    gap: 30px;
+}
+
 @media screen and (minwidth: 768px){
     body {
         font-size: 200%;

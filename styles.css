@@ -54,6 +54,7 @@ main {
 li:hover {
     color: #007F00;
     text-shadow: 10px -10px 20px ;
+    font-size: 125%;
 }
 
 .inline {

@@ -70,18 +70,22 @@ footer {
     padding: 1em;
     width: 100%;
     min-height: 5vh;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 30px;
 }
 
-/* @media screen and (minwidth: 768px){
+@media (min-width: 768px){
     body {
         font-size: 200%;
-        color: #000;
     }
     
     .bucket-list {
         max-width: 900px;
     }
-} */
+}
 
 /* #new-item {
     background-color: #151B23;
